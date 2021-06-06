@@ -9,6 +9,8 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <asp:TextBox ID="tbx_Number" runat="server" AutoPostBack="true" OnTextChanged="tbx_Number_TextChanged"></asp:TextBox><br />
+        <asp:Label ID="lb_Txt" runat="server" Text="Label"></asp:Label>
         <div>
         </div>
     </form>
